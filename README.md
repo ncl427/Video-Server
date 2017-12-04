@@ -42,7 +42,7 @@ The following steps are required to setup the server
 
 At the end you should be able to see the screen below. If yes, your server is ready to be accessed from any of the browser to which your ip is accessible through any interface you’ve defined.
 
-![Alt text](http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif "Optional Title")
+![Alt text](/content/images/homepage.jpg?raw=true "Home Page")
 
 <h2>*Note:</h2>
 If you’re accessing the website address from linux machine, then you need to install <code>chromium</code> in that case, because the <code>static</code> media used in the project is not accessible in Mozilla only in case if you’re using linux. So <code>Chrome/Chromium</code> browser is recommended.
