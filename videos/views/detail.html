@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Video-Id:&emsp;&emsp;&emsp;{{ videoId }} </h1>
+    <h1>Video-Name:&emsp;{{ name }} </h1>
+
+    <div>
+        <video width="640" height="360" controls autoplay>
+            {% load static %}
+            <source src="{% static 'videos/videos/' %}{{ name }}.mp4" type="video/mp4"> </source>
+        </video>
+    </div>
+</body>
+</html>

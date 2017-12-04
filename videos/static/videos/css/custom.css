@@ -1,0 +1,11 @@
+﻿.border-box-vid{
+    padding: 10px;
+    /*border: 1px solid blue;*/
+}
+.border-box-vid img{
+    margin: 1%;
+    padding: 1%;
+    width: 260px;
+    height: 150px;
+    border: 1px solid blue;
+}

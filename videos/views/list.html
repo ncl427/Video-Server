@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'videos/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'videos/css/custom.css' %}"/>
+</head>
+<body>
+    <div class="row" style="margin-top: 100px; margin-bottom: 100px;">
+        <div class="col-lg-2 col-md-4 border-box-vid">
+            <div class="text-center" style="font-weight: bold; text-decoration: underline;">
+                Kung Fu Panda 3
+            </div>
+            <a href="/videos/1/KungFuPandaTrailer/">
+                <img src="{% static 'videos/images/KungFuPandaTrailer.JPG' %}" />
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-4 border-box-vid">
+            <div class="text-center" style="font-weight: bold; text-decoration: underline;">
+                Despicable Me 3
+            </div>
+            <a href="/videos/2/DespicableMe3Trailer">
+                <img src="{% static 'videos/images/DespicableMe3Trailer.JPG' %}" />
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-4 border-box-vid">
+            <div class="text-center" style="font-weight: bold; text-decoration: underline;">
+                The Boss Baby
+            </div>
+            <a href="/videos/3/TheBossBabyTrailer">
+                <img src="{% static 'videos/images/TheBossBabyTrailer.JPG' %}" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>
